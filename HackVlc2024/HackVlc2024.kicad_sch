@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "5ba0ba7d-dd7c-41cf-9b64-97e962dc94ab")
 	(paper "A4")
+	(title_block
+		(title "Space Apps 2024")
+		(date "2024-10-05")
+		(rev "V0")
+		(company "Hackerspace Valencia - HCH")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
@@ -2475,7 +2481,7 @@
 		)
 		(uuid "b717a80e-9d98-4b3e-bd3c-ead73d0bda97")
 	)
-	(label "D9"
+	(label "D27"
 		(at 89.662 25.146 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3583,7 +3589,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x15")
-		(at 46.355 41.275 180)
+		(at 46.355 41.275 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3591,7 +3598,7 @@
 		(dnp no)
 		(uuid "74be67e9-e4ec-41cd-81bc-cf202f45b9a3")
 		(property "Reference" "J3"
-			(at 42.545 33.147 0)
+			(at 42.545 49.403 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3599,7 +3606,7 @@
 			)
 		)
 		(property "Value" "ESP32_DER"
-			(at 38.735 35.433 0)
+			(at 38.735 47.117 0)
 			(effects
 				(font
 					(size 1.27 1.27)

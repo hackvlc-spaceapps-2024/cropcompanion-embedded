@@ -1860,7 +1860,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.098 76.454) (xy 20.574 76.454)
+			(xy 22.098 77.47) (xy 20.574 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1930,7 +1930,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.098 73.914) (xy 20.574 73.914)
+			(xy 22.098 74.93) (xy 20.574 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2093,8 +2093,8 @@
 		(uuid 22bb6cdc-2438-491a-bc19-46ada7f723c4)
 	)
 	(rectangle
-		(start 12.7 64.262)
-		(end 39.624 79.502)
+		(start 12.7 65.278)
+		(end 39.624 80.518)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2118,7 +2118,7 @@
 	)
 	(text "Alimentación"
 		(exclude_from_sim no)
-		(at 19.304 65.786 0)
+		(at 19.304 66.802 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2569,7 +2569,7 @@
 		)
 		(uuid "f3323c5a-f477-4f38-bd67-86d9929692fb")
 	)
-	(label "D4"
+	(label "D34"
 		(at 87.884 55.118 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2713,7 +2713,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.098 76.454 90)
+		(at 22.098 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2721,7 +2721,7 @@
 		(dnp no)
 		(uuid "072fba38-a018-4d9f-a203-40e38bb3ffa0")
 		(property "Reference" "#PWR04"
-			(at 28.448 76.454 0)
+			(at 28.448 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,7 +2730,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.638 76.454 90)
+			(at 24.638 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2739,7 +2739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.098 76.454 0)
+			(at 22.098 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,7 +2748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.098 76.454 0)
+			(at 22.098 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,7 +2757,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.098 76.454 0)
+			(at 22.098 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3114,7 +3114,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 15.494 76.454 180)
+		(at 15.494 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3122,7 +3122,7 @@
 		(dnp no)
 		(uuid "47f92583-5f3e-4b0d-ae20-b0ee60438c31")
 		(property "Reference" "J1"
-			(at 15.24 68.072 0)
+			(at 15.24 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,7 +3130,7 @@
 			)
 		)
 		(property "Value" "Entrada Alimentación"
-			(at 24.13 70.612 0)
+			(at 24.13 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3138,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 15.494 76.454 0)
+			(at 15.494 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,7 +3147,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 15.494 76.454 0)
+			(at 15.494 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,7 +3156,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 15.494 76.454 0)
+			(at 15.494 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +3943,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 22.098 73.914 270)
+		(at 22.098 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3951,7 +3951,7 @@
 		(dnp no)
 		(uuid "c5d12427-46fd-42db-ad02-b8f8b38dbd76")
 		(property "Reference" "#PWR03"
-			(at 18.288 73.914 0)
+			(at 18.288 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +3960,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 24.638 73.914 90)
+			(at 24.638 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +3969,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.098 73.914 0)
+			(at 22.098 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,7 +3978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.098 73.914 0)
+			(at 22.098 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +3987,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 22.098 73.914 0)
+			(at 22.098 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)

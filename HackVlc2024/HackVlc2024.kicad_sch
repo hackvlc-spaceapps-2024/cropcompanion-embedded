@@ -2404,7 +2404,7 @@
 		)
 		(uuid "7550c515-3c2e-4b60-ab4a-9370d7ca2c1a")
 	)
-	(label "D25"
+	(label "D32"
 		(at 135.128 55.118 0)
 		(fields_autoplaced yes)
 		(effects
